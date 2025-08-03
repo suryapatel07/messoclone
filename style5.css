@@ -1,0 +1,67 @@
+*{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+}
+.navbar{
+    height: 72px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.856);
+}
+.nav-logo{
+    height: 72px;
+    width: 156px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("meeshoLogo.svg");
+    background-size: cover;
+    height: 36px;
+    width: 156px;
+}
+.search{
+    height: 46px;
+    width: 400px;
+    border: 1px solid rgba(0,0,0,0.856);
+    border-radius: 4px;
+}
+.input input{
+    height: 46px;
+    width: 99%;
+    margin-left: 20px;  
+    border: none;
+    font-size: 1.2rem;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.mobile{
+    height: 72px;
+    width: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mobile p{
+    height: 72px;
+    width: 104px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    padding-top: 24px;
+}
+.mobile i{
+    font-size: 25px;
+}
